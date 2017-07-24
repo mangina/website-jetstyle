@@ -1,0 +1,11 @@
+.wrap_inner {
+    width: 1229px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 640px) {
+    .wrap_inner {
+        width: 640px;
+        overflow: hidden;
+    }
+}

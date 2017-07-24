@@ -1,0 +1,12 @@
+.services-group {
+    display: block;
+}
+
+.services-item {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+@media screen and (max-width: 640px) {
+
+}

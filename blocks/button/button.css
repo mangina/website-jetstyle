@@ -1,0 +1,37 @@
+.button {
+    text-transform: uppercase;
+    border: 1px solid #ff5757;
+    outline: none;
+    color: #fff;
+    background-color: #ff5757;
+}
+
+.button_size {
+    border-radius: 27px;
+    padding: 12px 45px;
+    font-size: 12.01px;
+}
+
+.button:hover {
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #ff7567;
+    background-color: #ff7567;
+}
+
+@media screen and (max-width: 640px) {
+    .button {
+        border-radius: 36px;
+        padding: 26px 96px;
+        font-size: 22px;
+        border: 1px solid #df5757;
+        background-color: #df5757;
+    }
+
+    .buttom_size {
+        border-radius: 36px;
+        padding: 26px 96px;
+        font-size: 22px;
+    }
+
+}

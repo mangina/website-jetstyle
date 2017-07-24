@@ -1,0 +1,12 @@
+.advantage-list {
+  display: block;
+}
+
+.advantage-list__item {
+  display: inline-block;
+}
+
+@media screen and (max-width: 640px) {
+
+
+}

@@ -1,0 +1,107 @@
+.advantage {
+  background-color: #fff;
+  padding: 100px 0 96px;
+}
+
+.advantage__title {
+  text-transform: uppercase;
+  font-size: 31.85px;
+  color: #4a4a4a;
+  text-align: center;
+}
+
+.advantage-list {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.advantage-list__item {
+  margin: 50px 105px 0 30px;
+  &:last-of-type {
+    margin-right: 30px;
+  }
+}
+
+.advantage-list__item_type_tools {
+  background: url(../../images/advantage/icon-tools.png) no-repeat left top;
+}
+
+.advantage-list__item_type_doc {
+  background: url(../../images/advantage/icon-doc.png) no-repeat left top;
+}
+
+.advantage-list__item_type_gear {
+  background: url(../../images/advantage/icon-gear.png) no-repeat left top;
+}
+
+.advantage-list__item_type_time {
+  background: url(../../images/advantage/icon-time.png) no-repeat left top;
+}
+
+.advantage-list__img {
+  display: none;
+}
+
+.advantage-list__text {
+  font-size: 16px;
+  color: #262626;
+  line-height: 22px;
+  margin: -5px 0 0 43px;
+}
+
+@media screen and (max-width: 640px) {
+  .advantage {
+    padding: 100px 0 20px;
+    font-size: 0;
+  }
+  .advantage__title {
+    font-size: 48px;
+    line-height: 60px;
+    width: 564px;
+    margin: 0 auto;
+  }
+  .advantage-list {
+    margin-top: 70px;
+    -ms-flex-direction: row;
+    -ms-flex-wrap: wrap;
+    -moz-flex-flow: row wrap;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+  }
+  .advantage-list__item_type_gear {
+    background: url(../../images/advantage/icon-gear-mobile.png) no-repeat left top;
+    background-position: 100px 0;
+  }
+  .advantage-list__item_type_doc {
+    background: url(../../images/advantage/icon-doc-mobile.png) no-repeat left top;
+    background-position: 100px 0;
+  }
+  .advantage-list__item_type_time {
+    background: url(../../images/advantage/icon-time-mobile.png) no-repeat left top;
+    background-position: 100px 0;
+  }
+  .advantage-list__item_type_tools {
+    background: url(../../images/advantage/icon-tools-mobile.png) no-repeat left top;
+    background-position: 100px 0;
+  }
+  .advantage-list__text {
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    margin: 45px 0 0 0;
+  }
+  .advantage-list__img {
+    display: block;
+    height: 54px;
+  }
+  .advantage-list__item {
+    margin: 0 0 70px 30px;
+    width: 286px;
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}

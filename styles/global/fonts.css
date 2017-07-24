@@ -1,0 +1,55 @@
+@font-face {
+    font-family: Ubuntu-B;
+    src: url(../../uploads/fonts/ubuntuB.eot?);
+    src: url(../../uploads/fonts/ubuntuB.eot?#iefix) format('embedded-opentype'),
+    url(../../uploads/fonts/ubuntuB.svg#Ubuntu-B) format('svg'),
+    url(../../uploads/fonts/ubuntuB.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Ubuntu-M;
+    src: url(../../uploads/fonts/ubuntuM.eot?);
+    src: url(../../uploads/fonts/ubuntuM.eot?#iefix) format('embedded-opentype'),
+    url(../../uploads/fonts/ubuntuM.svg#Ubuntu-M) format('svg'),
+    url(../../uploads/fonts/ubuntuM.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Ubuntu-R;
+    src: url(../../uploads/fonts/ubuntuR.eot?);
+    src: url(../../uploads/fonts/ubuntuR.eot?#iefix) format('embedded-opentype'),
+    url(../../uploads/fonts/ubuntuR.svg#Ubuntu-R) format('svg'),
+    url(../../uploads/fonts/ubuntuR.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Ubuntu-L;
+    src: url(../../uploads/fonts/UbuntuL.eot?);
+    src: url(../../uploads/fonts/UbuntuL.eot?#iefix) format('embedded-opentype'),
+    url(../../uploads/fonts/UbuntuL.svg#Ubuntu-L) format('svg'),
+    url(../../uploads/fonts/UbuntuL.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.i-font-type-ubuntu_bold {
+    font-family: Ubuntu-B, Arial, Helvetica;
+}
+
+.i-font-type-ubuntu_medium {
+    font-family: Ubuntu-M, Arial, Helvetica;
+}
+
+.i-font-type-ubuntu_regular {
+    font-family: Ubuntu-R, Arial, Helvetica;
+}
+
+.i-font-type-ubuntu_light {
+    font-family: Ubuntu-L, Arial, Helvetica;
+}

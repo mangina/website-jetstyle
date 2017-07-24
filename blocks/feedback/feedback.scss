@@ -1,0 +1,138 @@
+.feedback {
+  background-color: #fff;
+  padding: 100px 0 86px;
+  text-align: center;
+  font-size: 0;
+}
+
+.feedback-form__row {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.feedback__title {
+  color: #464646;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin: 0 0 50px;
+}
+
+.feedback-form__row_message {
+  display: none;
+  font-size: 18px;
+  color: #ff5757;
+}
+
+.feedback__description {
+  color: #6f727f;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.7px;
+  width: 703px;
+  margin: 0 auto 35px;
+}
+
+.select {
+  display: inline-block;
+  background-color: #e9f1f7;
+  font-size: 14px;
+  color: #464646;
+  padding: 16px 20px;
+  margin: 0 auto;
+  border: 0;
+  width: 170px;
+  height: 50px;
+  outline: none;
+}
+
+.select__item {
+  padding: 16px 20px;
+}
+
+.select_type_business {
+  width: 770px;
+}
+
+.feedback-form__cell {
+  display: inline-block;
+  position: relative;
+  margin-left: 30px;
+  &:last-of-type {
+    margin-right: 30px;
+  }
+  &:before {
+    content: "▼";
+    position: absolute;
+    font-size: 12px;
+    line-height: 30px;
+    padding: 10px 14px;
+    background: #dbe8f3;
+    color: #a2c1d8;
+    right: 1px;
+    top: 1px;
+    height: 29px;
+    pointer-events: none;
+  }
+}
+
+.feedback-form__row:first-child:before {
+  right: 200px;
+  top: 1px;
+}
+
+.feedback-form__submit {
+  margin-top: 60px;
+}
+
+@media screen and (max-width: 640px) {
+  .feedback {
+    padding: 95px 0 97px;
+  }
+  .feedback__title {
+    width: 400px;
+    margin: 0 auto;
+    font-size: 48px;
+    line-height: 60px;
+  }
+  .feedback-form__cell:last-of-type {
+    margin-right: 0;
+  }
+  .feedback__description {
+    width: 615px;
+    font-size: 28px;
+    line-height: 42px;
+    margin: 75px auto 55px;
+  }
+  .select {
+    font-size: 28px;
+    width: 280px;
+    border: 5px;
+    height: 65px;
+    border-radius: 3px;
+  }
+  .select_type_business {
+    width: 600px;
+  }
+  .feedback-form__cell:before {
+    height: 26px;
+    padding: 19px 14px;
+    background-color: #e9f1f7;
+  }
+  .feedback-form__row:first-child {
+    margin-bottom: 60px;
+    &:before {
+      right: 20px;
+      top: 1px;
+    }
+  }
+  .feedback-form__cell {
+    margin-bottom: 57px;
+    &:nth-child(2n-1) {
+      margin-right: 20px;
+      margin-left: 20px;
+    }
+  }
+  .feedback-form__submit {
+    margin-top: 0;
+  }
+}
